@@ -5,7 +5,7 @@ public class Sideproject1 {
 	public Sideproject1() {
 		// TODO Auto-generated constructor stub
 	}
-
+system.out.println("Hi")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input= new Scanner(System.in);
