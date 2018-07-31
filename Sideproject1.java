@@ -214,18 +214,86 @@ System.out.println("Choose a pattern to follow.");
 System.out.println("Type 1 for the first pattern, and 2 for the second. ");
 int Pattern=input.nextInt();
 if(Pattern==1) {
-	System.out.println("Good choice agent. We are heading in the right direction. ");
+	System.out.println(" Agent, we are heading to a black hole. This mission is a failure. ");
+			
 }else {
-	System.out.println(" Agent,  we are heading to a black hole. THis mission is a failure.");
+	System.out.println(" Agent,  we are heading to a black hole. This mission is a failure.");
 	System.out.println("Game over");
 }
-
+	
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println("SpaceQuest Part 2");
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println("15 years after the events of SpaceQuest, we begin a new adventure. Alien forces have taken over");
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println("It is up to you now, avenge the agent in SpaceQuest!");
 System.out.println();
 	
-	
-	
-	
-	
+
+Scanner num = new Scanner(System.in);
+String f;
+f = num.nextLine() ;
+
+
+System.out.println("Beeee, Beeeeee, Beeeee...");
+System.out.println("Captain " + a + "! The Spaceship is now heading to the Black Hole ‘Fukushima’!");
+System.out.println("According to our knowledge, If we are attracted by the gravity of the Black Hole, we will not be able to get out of the obitor.");
+System.out.println("And everyone in the ship will die!");
+System.out.println("1. Trying to turn the spaceship around.");
+System.out.println("2. Keep heading towards Fukushima.");
+Scanner scan2=new Scanner(System.in);
+int  g = scan2.nextInt();
+		
+if (g <= 1)
+{System.out.println("Yes, Captain. Everyone on position.");
+System.out.println("Power up, all the way back.");
+System.out.println("Captain, I guess we are now facing another problem.");
+System.out.println("The engine is slowing down. We have to find a Way to fix it.");
+System.out.println("1.Ask the genius engineer Dr. Ralph to fix it as fast as he can.");
+System.out.println("2.Go back to the engine room and try to fix the problem with the engine group.");
+Scanner scan3=new Scanner(System.in);
+int c = scan3.nextInt();
+if (c <= 1)
+{System.out.println("Dr.Ralph has headed to the engine room");
+System.out.println("The engine of the ship is now extremely unstable, it is gonna explode under any kind of condition.");
+System.out.println("1.Command Dr. Ralph to fix the engine in 30 minutes, otherwise he will be executed.");
+System.out.println("2.Give up the Recycle room of the spaceship to decrease the burden of the engine.");
+Scanner scan4=new Scanner(System.in);
+int d = scan4.nextInt();
+if (d<=1)
+{System.out.println("Dr. Ralph has taken the escape capsule and left the ship.");
+System.out.println("The main engineer of the spaceship is exploding.");
+System.out.println("The operating room is now lost control.");
+System.out.println("Everyone now is heading to the escape capsule.");
+System.out.println("1.Run to the escape capsule room, take one capsule, and fly far away from the spaceship.");
+System.out.println("2.Leave the escape capsules to other crew members and watch deeply inside the black hole.");
+Scanner scan5=new Scanner(System.in);
+int e= scan5.nextInt();
+if (e <= 1)
+{System.out.println("You have fled away the spaceship, but the your escape capsule hit a meteoroite.");
+System.out.println("You died");
+System.out.println("Game Over...");}
+else
+{System.out.println("Fukushima is like a black eye in the boundless universe.");
+System.out.println("With the most extraordinary sight, the spaceship explodes.");
+System.out.println(a + " died with honor.");}}
+else
+{System.out.println("The spaceship now is able to flee Fukushima.");
+System.out.println("You have saved thousands of lives.");}}
+else
+{System.out.println("Now, Captain Natasha will control everything that happens in the operating room.");}}
+else
+{System.out.println("All right, it's time to face an adventure.");
+System.out.println("Let's see what is in the black hole");}
+
 	
 	}
 	
@@ -239,6 +307,6 @@ System.out.println();
 
 
 
-
+ 
 
 
