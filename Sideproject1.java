@@ -1,9 +1,7 @@
 package sct;
  import java.util.Scanner; 
 public class Sideproject1 {
-
 	
-
 	public Sideproject1() {
 		// TODO Auto-generated constructor stub
 	}
